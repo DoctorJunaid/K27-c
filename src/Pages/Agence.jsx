@@ -52,7 +52,7 @@ const Agence = () => {
     <div>
       <div className='section1'>
         <div ref={imageDivRef} className='h-[20vw] w-[15vw] min-w-[150px] min-h-[200px] overflow-hidden rounded-[2vw]  bg-red-600 absolute top-[20vh] left-[30vw]'>
-          <img ref={imageRef} className='w-full h-full object-cover' src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg" alt="" />
+          <img ref={imageRef} className='w-full h-full object-cover' src="https://k72.ca/uploads/teamMembers/Carl_480x640-480x640.jpg" alt="" loading='lazy' />
         </div>
         <div className='font-[font2] relative'>
           <div className=' text-[19vw] uppercase leading-[17vw] text-center mt-[55vh]'>Soixan7e Douze</div>
